@@ -6,4 +6,8 @@ class App < Sinatra::Base
     "Welcome to your app!!!! "
   end
 
+  get '/bitchin' do
+    "Bitchin man!"
+  end
+
 end
